@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(void) 
+{
+	float p;
+	float a;
+	float bim;
+	
+	printf("Ingrese el peso en kg: ");
+	scanf("%f",&p);
+	printf("Ingrese su altura en metros: ");
+	scanf("%f",&a);
+	
+	bim=p/(a*a);
+	
+	printf("Su indice de masa corporal es: %.2f",bim);
+	
+	
+	
+	return 0;
+}

@@ -20,7 +20,20 @@ int main(void)
 	printf("Menor a 18.5       | Bajo Peso\n");
 	printf("18.5 a 24.9        | Normal\n");
 	printf("25.0 a 29.9        | Sobrepeso\n");
-	printf("Mayor o igual a 30 | Obesidad");
+	printf("Mayor o igual a 30 | Obesidad\n\n");
 	
+
+        if(bim<18.5)
+                printf("Su estado actual: Bajo Peso\n\n");
+        else if(bim>=18.5 && bim<=24.9)
+                printf("Su estado actual: Normal\n\n");
+        else if(bim>=25.0 && bim>=29.9 )
+                printf("Su estado actual: Sobrepeso\n\n");
+        else if(bim>=30)
+                printf("Su estado actual: Obesidad\n\n");
+
+        return 0;
+
+
 	return 0;
 }
